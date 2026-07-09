@@ -1,0 +1,26 @@
+{
+  "name": "@ai-native-solutions/fallnet-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for fallnet · sovereign peer-to-peer mesh · stdio transport",
+  "type": "module",
+  "bin": {
+    "fallnet-mcp": "bin/fallnet-mcp.js"
+  },
+  "main": "bin/fallnet-mcp.js",
+  "files": ["bin", "README.md", "LICENSE"],
+  "keywords": ["mcp", "model-context-protocol", "fallnet", "webrtc", "p2p", "mesh"],
+  "author": "AI Native Solutions",
+  "license": "MIT",
+  "homepage": "https://github.com/sjgant80-hub/fallnet-mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjgant80-hub/fallnet-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/fallnet-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
